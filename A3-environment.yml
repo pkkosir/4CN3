@@ -1,0 +1,14 @@
+# Environment for 4CN3 assignment A3
+# usage: $ mamba env create --file=A3-environment.yml
+name: 4CN3-A3
+channels:
+- conda-forge
+dependencies:
+- eelbrain >= 0.40.3
+- pip
+- ipython
+- jupyter
+- jupytext
+- seaborn
+- pip:
+  - gammatone
